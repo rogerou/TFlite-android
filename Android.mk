@@ -52,7 +52,7 @@ LDLIBS := \
 	-lm \
 	-ldl			
 
-CXXFLAGS := -std=c++11 -frtti
+CXXFLAGS := -std=c++11 -frtti -O3
 
 ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
 	CXXFLAGS+=		
