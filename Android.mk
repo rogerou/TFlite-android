@@ -83,4 +83,6 @@ LOCAL_MODULE := tensorflow-lite
 include $(BUILD_STATIC_LIBRARY)
 
 
+#include $(BUILD_SHARED_LIBRARY)
+
 	
